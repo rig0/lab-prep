@@ -1,2 +1,4 @@
 psutil
 GPUtil
+requests
+dotenv
