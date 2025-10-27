@@ -1,3 +1,4 @@
 .env
 .venv
 /data
+/modules/__pycache__
