@@ -13,7 +13,7 @@ def main():
     print(f"{hostname} {os} {os_version} {os_release}")
 
     send_pushover_message(
-        f"Hello from: {hostname} {os} {os_version} {os_release}",
+        f"Hello from: {hostname} - {os} ({os_version}) [{os_release}]",
         title="Lab Prep",
         priority=0
     )
